@@ -1,0 +1,49 @@
+ls -al 
+echo 'hello' > 'world.txt'
+rm -rf hello.txt 
+rm -rf world.txt 
+gem install rails 
+rails new jathena --api
+cd jathena/
+bundle
+rails s
+cd jathena/
+rails c
+bundle
+rails s
+apt update
+apt install netbase
+rails s
+rails g controller status status
+bundle
+rails s
+curl http://127.0.0.1/status
+curl http://127.0.0.1:3000/status
+bundle
+curl http://127.0.0.1:3000/status
+bundle
+curl http://127.0.0.1:3000/status.json
+rails s -b 0.0.0.0
+bundle
+rails routes
+byobu
+apt install byobu
+apt update
+apt install byobu -y
+byobu
+env | grep HELLO
+aws -v
+apt install awscli
+apt update
+apt install awscli
+aws sts get-caller-identity
+apt update && apt install awscli -y
+aws sts get-caller-identity
+bundle
+rails c
+bundle
+rails c
+bundle
+rails c
+bundle
+rails c
